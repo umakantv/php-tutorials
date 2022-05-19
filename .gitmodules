@@ -1,0 +1,3 @@
+[submodule "example-app"]
+	path = example-app
+	url = https://github.com/umakantv/php-laravel-example-app
