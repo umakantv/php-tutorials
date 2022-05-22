@@ -40,6 +40,17 @@
   $s1->setMarks([81, 70, 58, 91, 79]);
   echo "<h1>{$s1->name}</h1>";
   echo "<h2>{$s1->getAverage()}</h2>";
+
+  // We can also create classes with their namees as strings
+
+  $class = "Student";
+
+  $s2 = new $class("Varun");
+  $s2->setMarks([61, 80, 63, 73, 64]);
+
+  echo "<h1>{$s2->name}</h1>";
+  echo "<h2>{$s2->getAverage()}</h2>";
+
 ?>
 
 </body>
